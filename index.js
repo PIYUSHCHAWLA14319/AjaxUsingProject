@@ -3,9 +3,10 @@
 let btn = document.getElementById('btn');
 let jokes = document.getElementById('jokes');
 let Url='518271ea5b7a18b178c9d9f18443'
-let MyKey = `https:hindi-jokes-api.onrender.com/jokes?api_key=${Url}`;
+let MyKey = `https://hindi-jokes-api.onrender.com/jokes?api_key=${Url}`;
 // console.log(MyKey);
 
+// https://piyushchawla14319.github.io/AjaxUsingProject/hindi-jokes-api.onrender.com/jokes?api_key=518271ea5b7a18b178c9d9f18443
 
 btn.addEventListener('click',()=>{
     // console.log('hello');
