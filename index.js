@@ -10,11 +10,11 @@ let MyKey = `https:hindi-jokes-api.onrender.com/jokes?api_key=${Url}`;
 btn.addEventListener('click',()=>{
     // console.log('hello');
     const Container =new XMLHttpRequest()
-    console.log(Container);
+    // console.log(Container);
     Container.open('GET',MyKey);
     // console.log('Hello');
     Container.onreadystatechange= function(){
-        console.log(Container.readyState);
+        // console.log(Container.readyState);
         if (Container.readyState ===4) {
             // console.log(this.responseText);
             let MyData = JSON.parse(this.responseText)
